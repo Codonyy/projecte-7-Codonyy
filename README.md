@@ -1,58 +1,157 @@
-# projecte Nexus
-
-## Desplegament integral d'infraestructura segura per a entorns d'e-learning
-
-![Logo del projecte Nexus](pics/logotip.png)
-
-## Autor
-
-Nom: [Escriu el teu nom aquí]
-
-Formant grups de treball: [Escriu els noms dels membres del grup aquí]
+# Projecte Intermodular — FoodLogístic S.A.
 
 ## Descripció del projecte
 
-Projecte Nexus vol posar en marxa una plataforma de formació E-learning pròpia, orientada a cursos per a tècnics informàtics i demana que aquesta plataforma es construeixi sobre una infraestructura de servidor eficient, sostenible i amb costos controlats.
+Implementació d’una solució tecnològica completa per modernitzar la infraestructura, millorar la seguretat i optimitzar la comunicació de l’empresa **FoodLogístic S.A.**.
 
-Per aquest motiu, Projecte Nexus encarrega al vostre equip tècnic (vosaltres) l’estudi, desplegament i presentació d’una solució completa de servidor, adequada a les necessitats del client i al context real d’una petita o mitjana organització.
+L’objectiu és oferir una proposta professional que combini infraestructura local, serveis al núvol, seguretat i presència digital.
 
-Al següent enllaç pots trobar l'enunciat complet del projecte [accés al projecte Nexus](https://docs.google.com/document/d/1dyntLKYDdo1CpgM7ZmHbXXD5VhMYAe9-/edit?usp=sharing&ouid=104728425662496836733&rtpof=true&sd=true)
+---
 
-## Instruccions (per eliminar abans de lliurar el projecte)
+## 1. Introducció i context
 
-Un cop teniu la vostra còpia d'aquest repositori, heu de seguir els passos següents:
+Després de la creació i consolidació de l’empresa, arriba el moment de treballar amb clients reals i expandir el negoci.
 
-1. **Editar aquest fitxer README.md**
-    - Incloure el vostre nom i els noms dels membres del grup.
+El projecte es divideix en dos objectius principals:
 
-1. **Organització del repositori:**
-   - Cada activitat ha d'estar dins d'una carpeta titulada `Tasca01`, `Tasca02`, etc.
-   - Dins de cada carpeta de tasca, heu d'incloure un arxiu `README.md` amb la descripció detallada de l'activitat realitzada.
+- Donar solució a les necessitats d’un client real
+- Consolidar la presència digital de la pròpia empresa
 
-```text
+---
 
-projecte6/
-├── README.md (aquest arxiu)
-├── Tasca01/
-│   └── README.md
-├── Tasca02/
-│   └── README.md
-├── Tasca03/
-│   └── README.md
-└── ...
-```
+## 2. Encàrrec del client
 
-1. **Procediment de treball:**
-   - A mesura que completeu cada tasca, actualitzeu el vostre repositori local amb els canvis.
-   - Cada dia, abans de finalitzar la jornada, pugeu els canvis al  repositori remot a GitHub.
+**FoodLogístic S.A.** és una empresa logística en creixement amb seu a Mataró.
 
-1. **Esborrar secció instruccions:**
-    - Un cop hàgiu completat la creació de les carpetes i actualitzat el vostre README.md, ja podeu eliminar aquesta secció d'instruccions per a una millor presentació del vostre projecte.
+A causa de l’expansió:
+- Ha augmentat el volum de dades
+- Té problemes de seguretat
+- Necessita millorar la comunicació interna
 
-## Guies Git i GitHub
+---
 
-- [Introducció a Git i GitHub](https://github.com/SMX2n/IntroGitHub)
-- [Control de versions: Git](https://github.com/SMX2n/ControlVersions)
-- [Guia GitHub Classroom](https://github.com/SMX2n/guia-github-classroom)
+## 3. Àrees d’actuació
 
-Bona sort! 🚀
+### 🛠️ Infraestructura i Alta Disponibilitat
+
+Objectiu: garantir continuïtat del servei
+
+Accions:
+- Servidor de fitxers en alta disponibilitat
+- Servidor d’impressió en alta disponibilitat
+
+---
+
+### ☁️ Comunicació al Núvol
+
+Objectiu: millorar la col·laboració
+
+Accions:
+- Avaluació de serveis com:
+  - Microsoft 365
+  - Google Workspace
+- Comparació de:
+  - Cost
+  - Seguretat
+  - Eines col·laboratives
+
+---
+
+### ⚖️ Seguretat i LOPD
+
+Objectiu: complir normativa de protecció de dades
+
+Accions:
+- Creació d’un vídeo formatiu per empleats
+- Explicació de bones pràctiques:
+  - Tractament de dades
+  - Seguretat
+  - Obligacions legals
+
+---
+
+### 🌐 Presència web
+
+Objectiu: renovar la imatge digital
+
+Accions:
+- Creació d’una landing page corporativa
+- Formulari de contacte
+- Compliment legal (LOPD i normativa web)
+
+---
+
+## 4. Desenvolupament del projecte
+
+El projecte s’ha de documentar en un repositori amb:
+
+- Carpeta per cada tasca
+- Fitxer `README.md` explicatiu
+- Evidències (captures, configuracions, etc.)
+
+---
+
+## 5. Costos i pressupost
+
+El client necessita informació clara sobre:
+
+### Costos d’implantació
+- Llicències
+- Infraestructura
+- Hores de treball
+
+### Costos recurrents
+- Subscripcions SaaS
+- Hosting
+- Manteniment
+- Suport tècnic
+
+---
+
+## 6. Planificació
+
+Cal definir:
+
+- Temps d’implantació
+- Estimació d’hores
+- Calendari del projecte
+
+
+---
+
+## Objectiu final
+
+Presentar una **memòria tècnica professional** amb:
+
+- Solució completa
+- Pressupost detallat
+- Planificació temporal
+- Justificació tècnica
+
+## Índex del projecte
+
+### 📁 Tasques (T)
+
+| Codi | Nom | Descripció |
+|------|-----|-----------|
+| T01 | Estudi de la competència | Anàlisi del mercat i empreses similars |
+| T02 | Web corporativa | Disseny inicial de la web del client |
+| T03 | Servidor de fitxers | Configuració i compartició de dades |
+| T04 | Servidor d’impressió | Gestió centralitzada d’impressores |
+| T05 | Vídeo LOPD | Formació sobre protecció de dades |
+| T06 | Adaptació web legal | Compliment normatiu (LOPD, cookies, etc.) |
+| T07 | Correu al núvol | Estudi i implantació de solució cloud |
+| T08 | Tria web definitiva | Selecció de la millor proposta web |
+| T09 | Planificació del projecte | Calendari i estimació temporal |
+| T10 | Pressupost | Costos d’implantació i manteniment |
+
+---
+
+### 📦 Productes finals (P)
+
+| Codi | Nom | Descripció |
+|------|-----|-----------|
+| P01 | Memòria tècnica | Document complet amb la solució proposada |
+| P02 | Web final | Web corporativa publicada i funcional |
+| P03 | Repositori GitHub | Documentació i evidències del projecte |
+
