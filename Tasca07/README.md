@@ -1,26 +1,101 @@
 
-# T07: TransLògic — Administració Avançada i Seguretat Corporativa
+# T07: Migrant al Cloud
 
 ## Breu descripció
 
-Implementació de millores d’administració i seguretat en la infraestructura de **Directori Actiu** de l’empresa **TransLògic S.A.**.
-
-L’objectiu és reforçar la seguretat corporativa, millorar la gestió del programari, facilitar la mobilitat dels treballadors i permetre delegar tasques administratives de manera controlada.
+Estudi i proposta d’una solució de **correu electrònic corporatiu al núvol** per a l’empresa FoodLogistic, amb l’objectiu de millorar la seguretat, la col·laboració i l’eficiència del sistema actual.
 
 ---
 
-# Introducció
+## Introducció
 
-Tot i que el projecte **Projecte Nexus** ocupa gran part del temps de l'equip tècnic, és necessari continuar mantenint i millorant les infraestructures dels clients actuals.
+L’empresa disposa de **35 treballadors** i utilitza un servei de correu antic amb limitacions de seguretat i funcionalitat.
 
-**TransLògic S.A.** ja va fer el salt cap a una infraestructura basada en **Active Directory**, però ara necessita implementar noves millores relacionades amb:
+L’objectiu és migrar a una solució moderna al **cloud** que integri:
 
-- Seguretat de contrasenyes
-- Gestió centralitzada del programari
-- Mobilitat dels usuaris
-- Protecció de dades
-- Delegació de funcions administratives
-
-Aquest document descriu el procés d’implementació de totes aquestes millores.
+- Correu electrònic segur
+- Eines de col·laboració
+- Emmagatzematge al núvol
 
 ---
+
+## 1. Anàlisi d’alternatives
+
+Estudi de diferents proveïdors de correu corporatiu:
+
+- Microsoft 365  
+- Google Workspace  
+- Zoho Workplace  
+- Altres alternatives (ex: Lark)
+
+---
+
+## 2. Comparativa de característiques
+
+Per cada solució s’analitza:
+
+- Cost per usuari/mes  
+- Emmagatzematge (correu i núvol)  
+- Mesures de seguretat  
+- Eines addicionals:
+  - Calendaris
+  - Xat
+  - Videotrucades
+  - Ofimàtica online  
+
+---
+
+## 3. Càlcul de costos
+
+Selecció de la millor opció per a:
+
+```
+35 usuaris
+```
+
+Inclou:
+
+- Cost mensual per usuari
+- Cost anual total
+- Eines de migració del correu
+
+---
+
+## 4. Proposta final
+
+### Comparativa
+Taula resum amb les principals opcions analitzades.
+
+### Justificació tècnica
+Explicació de per què la solució escollida és:
+
+- Més segura  
+- Més eficient  
+- Més adequada per l’empresa  
+
+### Pressupost
+Taula amb:
+
+- Cost de llicències
+- Cost total anual
+- Costos recurrents
+
+---
+
+## Lliurables
+
+Document tipus **dossier comercial** amb:
+
+- Comparativa de serveis
+- Justificació tècnica
+- Pressupost detallat
+
+---
+
+## Objectiu final
+
+Proposar una solució cloud que millori:
+
+- Seguretat del correu
+- Productivitat dels treballadors
+- Escalabilitat futura de l’empresa
