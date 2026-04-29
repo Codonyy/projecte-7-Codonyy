@@ -115,6 +115,6 @@ La web final escollida serà la que es presentarà al client dins la memòria t�
 - Guia GitHub Pages  
 ```
 https://github.com/SMX2n/Projecte7-GitHubPages
-```
+
 ````
 
