@@ -1,120 +1,120 @@
-# T08: Vigilància i Auditoria de Sistemes
+
+# T08: Tria de la web definitiva
 
 ## Breu descripció
 
-Implementació de mecanismes de monitorització i auditoria de seguretat a la infraestructura de **TransLògic S.A.** per detectar activitats sospitoses, intents d’intrusió i verificar l’estat del sistema.
+Selecció de la proposta final de pàgina web per a **FoodLogístic S.A.** mitjançant un procés de treball en equip basat en anàlisi, debat i consens.
 
 ---
 
 ## Introducció
 
-Un cop la infraestructura base està operativa, l’empresa necessita garantir la **integritat de les dades** i la detecció d’accessos no autoritzats.
+En aquesta fase del projecte, l’equip ha de decidir una única proposta web per presentar al client.
 
-L’objectiu és configurar sistemes de vigilància activa mitjançant:
+Tot i que cada membre ha desenvolupat una web individualment, el client necessita una solució:
 
-- Monitorització de recursos
-- Auditoria d’accessos
-- Simulació d’incidents
-- Anàlisi forense dels logs
+- Única
+- Professional
+- Coherent
+- Legalment correcta
 
----
+Aquest procés permet treballar competències clau com:
 
-## 1. Monitorització de Recursos
-
-Verificació del rendiment del servidor.
-
-### Accions realitzades
-
-- Accés al **Monitor de Rendiment** o **Gestor de Tasques**
-- Captura de:
-  - Ús de CPU
-  - Memòria RAM disponible
-
-### Interpretació
-
-S’analitza si el servidor:
-
-- està saturat ❌  
-- o funciona amb normalitat ✅
+- Comunicació assertiva  
+- Treball en equip  
+- Capacitat de negociació  
+- Pensament crític  
 
 ---
 
-## 2. Configuració d'Auditoria de Seguretat
+## 1. Reflexió individual
 
-Activació del registre d’inicis de sessió per detectar possibles atacs.
+Cada membre de l’equip analitza la seva pròpia web.
 
-### Configuració
+### Exemple d’anàlisi
 
-Mitjançant **GPO** o política local:
+#### Punts forts
 
-Activar auditoria de:
+- Disseny modern i responsive  
+- Navegació clara  
+- Formulari de contacte funcional  
 
-- ✅ Inicis de sessió correctes (Success)
-- ✅ Inicis de sessió fallits (Failure)
+#### Punts febles
 
-Objectiu: detectar intents de força bruta.
-
----
-
-## 3. Simulació d'Incidents (Hacking Ètic)
-
-Prova del sistema d’auditoria configurat.
-
-### Procediment
-
-1. Tancar la sessió actual.
-2. Intentar iniciar sessió amb contrasenya incorrecta.
-3. Repetir l’error **3 o 4 vegades**.
-4. Iniciar sessió correctament amb administrador.
+- Falta d’informació legal (cookies, privacitat)  
+- Disseny poc corporatiu  
+- No optimitzada per SEO  
 
 ---
 
-## 4. Anàlisi Forense (Event Viewer)
+## 2. Debat i contrast d’idees
 
-Investigació dels intents d'accés registrats.
+Els membres de l’equip comparteixen les seves reflexions.
 
-### Passos
+### Aspectes treballats
 
-- Obrir **Event Viewer**
-- Accedir a:
+- Explicació de cada proposta  
+- Comparació de dissenys  
+- Valoració funcional i tècnica  
+- Compliment de normativa (LOPDGDD i LSSI-CE)  
 
-```
-Windows Logs → Security
-```
+Es fomenta:
 
-- Localitzar esdeveniments recents d’error
-- Analitzar detalls:
-  - Usuari
-  - Hora
-  - IP d’origen (si disponible)
-
-### Dada clau
-
-Event ID d’intent d’inici de sessió fallit:
-
-```
-4625
-```
+- Escolta activa  
+- Respecte per les opinions  
+- Argumentació clara  
 
 ---
 
-## Lliurables
+## 3. Negociació i consens final
 
-### Informe d'Auditoria
+Després del debat, s’arriba a una decisió conjunta.
 
-Incloure:
+### Opcions considerades
 
-- Captura dels recursos del sistema + interpretació
-- Captura de la política d’auditoria configurada
-- Evidència del Visor d’Esdeveniments amb errors generats
-- Identificació de l’Event ID corresponent
+- Escollir una única web  
+- Fusionar diferents propostes  
+
+### Decisió final
+
+S’opta per una **solució híbrida** combinant:
+
+- Disseny visual d’una proposta  
+- Formulari de contacte d’una altra  
+- Estructura i continguts millorats  
+
+---
+
+## Justificació de la tria
+
+La proposta final s’ha seleccionat perquè:
+
+- Ofereix millor experiència d’usuari  
+- Té un disseny modern i professional  
+- Compleix la normativa legal  
+- És tècnicament viable  
+- Representa millor la imatge corporativa de FoodLogístic  
+
+---
+
+## Conclusions
+
+El procés ha permès:
+
+- Millorar les propostes inicials  
+- Arribar a una solució consensuada  
+- Desenvolupar habilitats de treball en equip  
+
+La web final escollida serà la que es presentarà al client dins la memòria tècnica.
 
 ---
 
 ## Material de suport
 
+- Comunicació assertiva  
+- Guia GitHub Pages  
 ```
-0224 SOX — UD7 (AA3)
+https://github.com/SMX2n/Projecte7-GitHubPages
 ```
+````
 
-Disponible al Moodle de l’assignatura.
