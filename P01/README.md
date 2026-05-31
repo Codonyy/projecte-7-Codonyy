@@ -5,6 +5,8 @@
 **Autors:** Marc Jurado i Martí Codony  
 **Data:** 4 de maig de 2026  
 
+https://docs.google.com/document/d/1hyW8ebolwct2gJBrbkYNrRjhxwXY9NqXU85z-k85kOE/edit?usp=sharing
+
 ---
 
 ## TAULA DE CONTINGUTS
