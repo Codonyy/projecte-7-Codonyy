@@ -1,6 +1,6 @@
 # MEMÒRIA TÈCNICA – PROPOSTA PER A FOODLOGÍSTIC S.A.
 
-![](P01/images/imatge1.png)
+![](images/imatge1.png)
 
 **Autors:** Marc Jurado i Martí Codony  
 **Data:** 4 de maig de 2026  
